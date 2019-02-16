@@ -14,7 +14,7 @@ public class PrintLogger extends Logger {
     @Override
     public void notify(Message m) {
 
-        if (m.getLevel().compareTo(this.level) == 1){
+        if ((m.getLevel().compareTo(this.level)) >= 0){
             System.out.printf("[%s] %s", this.level, m.getContent());
         }
     }
