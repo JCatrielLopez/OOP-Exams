@@ -13,7 +13,7 @@ public class ErrorMemory extends Memory {
     }
 
     @Override
-    public boolean write(Integer position, Byte data) {
+    public boolean write(Integer position, Byte data) throws Exception {
         float prob = new Random().nextFloat();
         if (prob < error_prob) {
             byte[] b = new byte[1];

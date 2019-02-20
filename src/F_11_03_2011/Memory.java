@@ -4,7 +4,7 @@ public abstract class Memory {
 
     Integer total_access;
 
-    public abstract boolean write(Integer position, Byte data);
+    public abstract boolean write(Integer position, Byte data) throws Exception;
 
     public abstract Byte read(Integer position) throws Exception;
 

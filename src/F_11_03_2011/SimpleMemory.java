@@ -6,14 +6,18 @@ public class SimpleMemory extends Memory {
 
     ArrayList<Byte> content;
 
-    public SimpleMemory(){
-        this.content = new ArrayList<>();
+    public SimpleMemory(Integer size){
+        this.total_access = 0;
+        this.content = new ArrayList<>(size);
+        byte def = 0;
+        for(int i = 0; i < size; i++)
+            this.content.add(i, def);
     }
 
     @Override
     public boolean write(Integer position, Byte data) {
         this.total_access++;
-        if (position < this.content.size())
+        if (position > this.content.size())
             return false;
         else
             this.content.add(position, data);

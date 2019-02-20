@@ -9,7 +9,7 @@ public class VerificationMemory extends Memory {
     }
 
     @Override
-    public boolean write(Integer position, Byte data) {
+    public boolean write(Integer position, Byte data) throws Exception {
         return this.memory.write(position, data);
     }
 

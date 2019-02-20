@@ -10,8 +10,12 @@ public class MemorySet extends Memory {
         this.memories = new ArrayList<>();
     }
 
+    public void addMemory(Memory memory){
+        this.memories.add(memory);
+    }
+
     @Override
-    public boolean write(Integer position, Byte data) {
+    public boolean write(Integer position, Byte data) throws Exception {
         Integer temp_size = this.memories.get(0).size();
 
         if (position < temp_size) {
