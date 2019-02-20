@@ -5,14 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="566a1c3c-c426-4c0b-be2f-71a511f9f37a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/F_11_07_2014/Disease.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/F_11_07_2014/Drug.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/F_11_07_2014/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/F_11_07_2014/Medicine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/F_11_07_2014/MiracleMedicine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/F_11_07_2014/RiskPatient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/F_11_07_2014/SimpleDrug.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/F_11_07_2014/Drug.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/F_11_07_2014/Drug.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/F_11_07_2014/Medicine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/F_11_07_2014/Medicine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/F_11_07_2014/MiracleMedicine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/F_11_07_2014/MiracleMedicine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/F_11_07_2014/SimpleDrug.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/F_11_07_2014/SimpleDrug.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -32,11 +28,15 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/F_11_07_2014/Drug.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
+            <state relative-caret-position="105">
+              <caret line="7" column="48" selection-start-line="7" selection-start-column="48" selection-end-line="7" selection-end-column="48" />
+              <folding>
+                <element signature="e#159#160#0" expanded="true" />
+                <element signature="e#179#180#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -53,8 +53,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/F_11_07_2014/MiracleMedicine.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+            <state>
+              <caret column="21" lean-forward="true" selection-start-column="21" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -62,17 +62,29 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/F_11_07_2014/SimpleDrug.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+            <state relative-caret-position="120">
+              <caret line="8" selection-start-line="8" selection-end-line="8" />
+              <folding>
+                <element signature="e#117#118#0" expanded="true" />
+                <element signature="e#141#142#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/F_11_07_2014/Medicine.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" selection-start-line="8" selection-end-line="8" />
+            <state relative-caret-position="315">
+              <caret line="21" column="118" selection-start-line="21" selection-start-column="118" selection-end-line="21" selection-end-column="118" />
+              <folding>
+                <element signature="e#152#153#0" expanded="true" />
+                <element signature="e#200#201#0" expanded="true" />
+                <element signature="e#257#258#0" expanded="true" />
+                <element signature="e#293#294#0" expanded="true" />
+                <element signature="e#363#364#0" expanded="true" />
+                <element signature="e#402#403#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -150,9 +162,9 @@
         <option value="$PROJECT_DIR$/src/F_11_03_2011/MemorySet.java" />
         <option value="$PROJECT_DIR$/src/F_11_07_2014/Main.java" />
         <option value="$PROJECT_DIR$/src/F_11_07_2014/MiracleMedicine.java" />
+        <option value="$PROJECT_DIR$/src/F_11_07_2014/Drug.java" />
         <option value="$PROJECT_DIR$/src/F_11_07_2014/SimpleDrug.java" />
         <option value="$PROJECT_DIR$/src/F_11_07_2014/Medicine.java" />
-        <option value="$PROJECT_DIR$/src/F_11_07_2014/Drug.java" />
       </list>
     </option>
   </component>
@@ -198,7 +210,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550677062114" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550677725512" />
     <property name="full.screen.before.presentation.mode" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -292,12 +304,12 @@
       <workItem from="1550516804822" duration="594000" />
       <workItem from="1550517435692" duration="29000" />
       <workItem from="1550517493483" duration="7880000" />
-      <workItem from="1550668065043" duration="9038000" />
+      <workItem from="1550668065043" duration="9731000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32415000" />
+    <option name="totallyTimeSpent" value="33108000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -312,7 +324,7 @@
     <frame x="0" y="99" width="1366" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21439394" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21439394" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -775,27 +787,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/F_11_07_2014/MiracleMedicine.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/F_11_07_2014/Medicine.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/F_11_07_2014/SimpleDrug.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/F_11_07_2014/Disease.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -810,10 +801,47 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/F_11_07_2014/MiracleMedicine.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="21" lean-forward="true" selection-start-column="21" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/F_11_07_2014/Drug.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
+        <state relative-caret-position="105">
+          <caret line="7" column="48" selection-start-line="7" selection-start-column="48" selection-end-line="7" selection-end-column="48" />
+          <folding>
+            <element signature="e#159#160#0" expanded="true" />
+            <element signature="e#179#180#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/F_11_07_2014/SimpleDrug.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+          <folding>
+            <element signature="e#117#118#0" expanded="true" />
+            <element signature="e#141#142#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/F_11_07_2014/Medicine.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="118" selection-start-line="21" selection-start-column="118" selection-end-line="21" selection-end-column="118" />
+          <folding>
+            <element signature="e#152#153#0" expanded="true" />
+            <element signature="e#200#201#0" expanded="true" />
+            <element signature="e#257#258#0" expanded="true" />
+            <element signature="e#293#294#0" expanded="true" />
+            <element signature="e#363#364#0" expanded="true" />
+            <element signature="e#402#403#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
