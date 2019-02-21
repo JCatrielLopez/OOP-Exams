@@ -5,10 +5,11 @@ public abstract class Drug {
     String name;
     Float amount;
 
-    protected abstract float getAmount(Drug drug);
 
     public String getName(){
         return this.name;
     }
+
+    public abstract float getPercentage(String drug);
 
 }

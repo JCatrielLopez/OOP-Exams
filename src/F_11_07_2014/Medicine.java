@@ -2,30 +2,44 @@ package F_11_07_2014;
 
 
 import java.util.ArrayList;
+import java.util.HashMap;
 
 public class Medicine extends Drug {
 
-    ArrayList<Drug> components;
+    HashMap<Drug, Float> components;
+    ArrayList<String> treatedSymptoms;
+    ArrayList<String> contraindications;
 
     public Medicine(){
-        this.components = new ArrayList<>();
+        this.components = new HashMap<>();
     }
 
     public void addComponent(Drug drug){
-        this.components.add(drug);
+        this.components.put(drug, 0f);
     }
 
     public void removeComponent(Drug drug){
         this.components.remove(drug);
     }
 
-    public float getAmount(Drug drug) { //TODO: Corregir la forma de calcular la cantidad. Se multiplican los niveles!
-        float amount = 0f;
-        for (Drug component : components)
-            if (component.getName().equals(drug.getName()))
-                amount += component.getAmount(drug);
+    public float getPercentage(String drug){
+        float percentage = 0f;
 
-        return amount;
+        for(Drug component: components.keySet())
+            if (component.getName().equals(drug))
+                percentage = percentage + components.get(drug) * component.getPercentage(drug);
+
+        return percentage;
     }
+
+    public boolean cures(String symptom){
+        return this.treatedSymptoms.contains(symptom);
+    }
+
+    public ArrayList<String> getContraindications(){
+        return (ArrayList<String>) this.contraindications.clone();
+    }
+
+
 
 }
