@@ -1,6 +1,8 @@
 package F_26_02_2016;
 
-public abstract class WebContent {
+import javax.swing.text.AbstractDocument;
+
+public abstract class WebContent implements ContentRestriction{
 
     String description;
     Image image;
@@ -22,5 +24,6 @@ public abstract class WebContent {
     }
 
     //TODO: Abstract methods
-
+    public abstract Integer amountOfNews();
+    public abstract ContentRestriction restrictContent(String keyword);
 }

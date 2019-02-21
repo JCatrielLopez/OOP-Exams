@@ -5,4 +5,7 @@ import java.util.ArrayList;
 public abstract class Section {
 
     public abstract ArrayList<String> getTopics();
+
+    public Integer amountOfNews() {
+    }
 }

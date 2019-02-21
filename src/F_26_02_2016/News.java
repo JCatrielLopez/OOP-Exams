@@ -79,4 +79,16 @@ public class News extends WebContent {
     }
 
 
+    @Override
+    public Integer amountOfNews() {
+        return 1;
+    }
+
+    @Override
+    public ContentRestriction restrictContent(String keyword) {
+        if (this.keywords.contains(keyword))
+            return this;
+        else
+            return null;
+    }
 }

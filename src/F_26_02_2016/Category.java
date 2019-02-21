@@ -1,7 +1,5 @@
 package F_26_02_2016;
 
-import F_03_09_2014.Section;
-
 import java.util.ArrayList;
 
 public class Category extends WebContent{
@@ -30,4 +28,26 @@ public class Category extends WebContent{
         this.sections = sections;
     }
 
+    @Override
+    public Integer amountOfNews() {
+        Integer out = 0;
+        for(Section section: sections)
+            out += section.amountOfNews();
+
+        return out;
+    }
+
+    @Override
+    public ContentRestriction restrictContent(String keyword) {
+        ArrayList<Section> sections = new ArrayList<>();
+        for(Section section: this.sections)
+            sections.add((Section) section.restrictContent(keyword));
+
+        if (sections.size() != 0) {
+            Category result = new Category(this.description, this.image, sections);
+            return result;
+        }
+        else
+            return null;
+    }
 }
