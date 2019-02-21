@@ -2,10 +2,9 @@ package F_03_09_2014;
 
 import java.util.ArrayList;
 
-public abstract class Section {
+public class Section {
 
-    public abstract ArrayList<String> getTopics();
-
-    public Integer amountOfNews() {
+    protected ArrayList<String> getTopics() {
+        return new ArrayList<>();
     }
 }

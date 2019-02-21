@@ -1,6 +1,5 @@
 package F_26_02_2016;
 
-import javax.swing.text.AbstractDocument;
 
 public abstract class WebContent implements ContentRestriction{
 

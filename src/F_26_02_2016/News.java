@@ -78,6 +78,9 @@ public class News extends WebContent {
         this.link = link;
     }
 
+    public boolean containsKeyword(String keyword){
+        return this.keywords.contains(keyword);
+    }
 
     @Override
     public Integer amountOfNews() {
