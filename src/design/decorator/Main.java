@@ -20,6 +20,15 @@ public class Main {
      * programming situation, we apply decorator pattern in java.
      */
 
+    public static void main(String[] args) {
 
+        Car sportsCAR = new SportsCar(new BasicCar());
+        sportsCAR.assemble();
+
+        System.out.println("\n************\n");
+        Car sportsAndLuxuryCAR = new SportsCar(new LuxuryCar(new BasicCar()));
+        sportsAndLuxuryCAR.assemble();
+
+    }
 
 }
