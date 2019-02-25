@@ -2,7 +2,6 @@ package F_02_12_2010;
 
 public class PrintLogger extends Logger {
 
-
     public PrintLogger(String name, Level level, LoggerCollection col){
 
         this.level = level;

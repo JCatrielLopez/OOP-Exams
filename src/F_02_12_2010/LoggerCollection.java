@@ -16,8 +16,8 @@ public class LoggerCollection {
             collection.add(logger);
         else{
             PrintLogger l = new PrintLogger("warningCollection", Level.WARN, this);
-            Message m = new Message(Level.WARN, "El nombre ya existe. No se ingreso el Logger!");
-            l = null;
+            Message m = new Message(Level.WARN, "El nombre ya existe. No se ingreso el BasicLogger!");
+            l.notify(m);
         }
     }
 

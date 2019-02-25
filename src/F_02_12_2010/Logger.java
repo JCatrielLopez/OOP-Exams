@@ -10,7 +10,7 @@ public abstract class Logger implements Comparable<Logger>{
 
     @Override
     public int compareTo(Logger o) {
-       return this.name.compareTo(o.getName());
+        return this.name.compareTo(o.getName());
     }
 
     protected String getName(){
