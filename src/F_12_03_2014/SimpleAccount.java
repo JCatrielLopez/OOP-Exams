@@ -18,6 +18,8 @@ public class SimpleAccount extends Account {
                 this.balance -= transaction.getAmount();
                 return true;
             }
+            else
+                this.open = false;
 
         return false;
     }
