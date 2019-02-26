@@ -22,7 +22,6 @@ public abstract class WebContent implements ContentRestriction{
         this.image = image;
     }
 
-    //TODO: Abstract methods
     public abstract Integer amountOfNews();
     public abstract ContentRestriction restrictContent(String keyword);
 }

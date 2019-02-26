@@ -2,10 +2,10 @@ package F_11_03_2015;
 
 public class ActionSimple implements Action{
 
-    public ActionSimple(){};
+    public ActionSimple(){}
 
     @Override
     public void execute() {
-        //TODO
+        // Do what an action does!
     }
 }

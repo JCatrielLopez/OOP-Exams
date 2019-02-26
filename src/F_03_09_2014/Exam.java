@@ -28,6 +28,6 @@ public class Exam {
     }
 
     public boolean isValid(){
-        return validCondition.isSatisfied(this); //TODO
+        return validCondition.isSatisfied(this);
     }
 }

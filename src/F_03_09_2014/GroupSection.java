@@ -21,5 +21,11 @@ public class GroupSection extends Section {
         return topics;
     }
 
-    //TODO getters y setters.
+    public ArrayList<Section> getSections() {
+        return sections;
+    }
+
+    public void setSections(ArrayList<Section> sections) {
+        this.sections = sections;
+    }
 }

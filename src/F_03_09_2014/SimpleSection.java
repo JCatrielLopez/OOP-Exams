@@ -20,5 +20,11 @@ public class SimpleSection extends Section {
         return topics;
     }
 
-    //TODO getters y setters.
+    public ArrayList<Question> getQuestions() {
+        return questions;
+    }
+
+    public void setQuestions(ArrayList<Question> questions) {
+        this.questions = questions;
+    }
 }
