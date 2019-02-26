@@ -5,14 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="566a1c3c-c426-4c0b-be2f-71a511f9f37a" name="Default Changelist" comment="g">
-      <change afterPath="$PROJECT_DIR$/src/F_03_07_2013/GroupTask.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/F_03_07_2013/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/F_03_07_2013/Resource.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/F_03_07_2013/SimpleTask.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/F_03_07_2013/States.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/F_03_07_2013/Task.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/F_03_09_2014/Section.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/F_03_09_2014/Section.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/F_03_07_2013/SimpleTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/F_03_07_2013/SimpleTask.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -48,8 +42,11 @@
             <state relative-caret-position="90">
               <caret line="6" selection-start-line="6" selection-end-line="8" />
               <folding>
+                <element signature="e#289#290#0" expanded="true" />
                 <element signature="e#321#322#0" expanded="true" />
+                <element signature="e#353#354#0" expanded="true" />
                 <element signature="e#381#382#0" expanded="true" />
+                <element signature="e#423#424#0" expanded="true" />
                 <element signature="e#457#458#0" expanded="true" />
               </folding>
             </state>
@@ -59,12 +56,10 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/F_03_07_2013/SimpleTask.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="175">
-              <caret line="32" column="18" selection-start-line="32" selection-start-column="18" selection-end-line="33" selection-end-column="18" />
+            <state relative-caret-position="186">
+              <caret line="64" column="61" lean-forward="true" selection-start-line="64" selection-start-column="61" selection-end-line="64" selection-end-column="61" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#107#108#0" expanded="true" />
-                <element signature="e#134#135#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -82,8 +77,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/F_03_07_2013/GroupTask.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-20">
-              <caret line="9" column="25" lean-forward="true" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
+            <state relative-caret-position="135">
+              <caret line="9" column="25" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -196,8 +191,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -243,7 +238,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551112615219" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551112858464" />
     <property name="full.screen.before.presentation.mode" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -358,12 +353,13 @@
       <workItem from="1550755101194" duration="5840000" />
       <workItem from="1550845030582" duration="3949000" />
       <workItem from="1551104813621" duration="597000" />
-      <workItem from="1551105452273" duration="6656000" />
+      <workItem from="1551105452273" duration="6893000" />
+      <workItem from="1551143824660" duration="1538000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="50332000" />
+    <option name="totallyTimeSpent" value="52107000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -375,10 +371,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="24" width="1366" height="744" extended-state="6" />
+    <frame x="0" y="30" width="1366" height="738" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.23787878" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24166666" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -395,7 +391,7 @@
       <window_info anchor="bottom" id="TODO" order="7" weight="0.32840723" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32874355" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32357723" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.48617887" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.32520324" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -639,13 +635,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/F_02_12_2010/BasicLogger.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/F_02_12_2010/BasicLogger.java" />
     <entry file="file://$PROJECT_DIR$/src/F_02_12_2010/Logger.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -758,7 +748,7 @@
               <point x="-32.666666666666686" y="15.0" />
             </edge>
           </edges>
-          <settings layout="Hierarchic Group" zoom="1.0" x="46.5" y="128.5" />
+          <settings layout="Hierarchic Group" zoom="1.0" x="47.0" y="129.0" />
           <SelectedNodes>
             <node>F_03_09_2014.Main</node>
           </SelectedNodes>
@@ -824,13 +814,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/F_03_07_2013/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/F_06_08_2014/MyFloat.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -887,6 +870,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/F_03_07_2013/Final 2013-07-03.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/F_03_07_2013/Task.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" selection-start-line="6" selection-end-line="8" />
+          <folding>
+            <element signature="e#289#290#0" expanded="true" />
+            <element signature="e#321#322#0" expanded="true" />
+            <element signature="e#353#354#0" expanded="true" />
+            <element signature="e#381#382#0" expanded="true" />
+            <element signature="e#423#424#0" expanded="true" />
+            <element signature="e#457#458#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/F_03_07_2013/States.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
@@ -896,34 +897,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/F_03_07_2013/GroupTask.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-20">
-          <caret line="9" column="25" lean-forward="true" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
+        <state relative-caret-position="135">
+          <caret line="9" column="25" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/F_03_07_2013/Task.java">
+    <entry file="file://$PROJECT_DIR$/src/F_03_07_2013/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" selection-start-line="6" selection-end-line="8" />
-          <folding>
-            <element signature="e#321#322#0" expanded="true" />
-            <element signature="e#381#382#0" expanded="true" />
-            <element signature="e#457#458#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="30">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/F_03_07_2013/Final 2013-07-03.jpg">
-      <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/F_03_07_2013/SimpleTask.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="32" column="18" selection-start-line="32" selection-start-column="18" selection-end-line="33" selection-end-column="18" />
+        <state relative-caret-position="186">
+          <caret line="64" column="61" lean-forward="true" selection-start-line="64" selection-start-column="61" selection-end-line="64" selection-end-column="61" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#107#108#0" expanded="true" />
-            <element signature="e#134#135#0" expanded="true" />
           </folding>
         </state>
       </provider>
