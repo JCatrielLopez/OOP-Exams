@@ -2,8 +2,6 @@ package F_27_02_2013;
 
 public class Main {
 
-
-
     /*
     DIFERENCIAS ENTRE ESTA IMPLEMENTACION Y LA COMBINABLE:
 
@@ -12,8 +10,7 @@ public class Main {
             sobre matrices basicas.
          - Permite tambien la modificacion del comportamiento de los OBJETOS sin modificar las clases. Es decir, se puede
             implementar un cambio en un objeto determinado sin afectar a todos los otros de la misma subclase.
-         - La implementacion rigida no permite estas combinaciones/modificaciones. Favorece la herencia como metodo
-            de modificacion antes que la composicion. Si en el futuro se quiere implementar una matriz que registre
-            las lecturas y escrituras, tengo que armar una clase nueva y repetir codigo.
+         - La implementacion rigida es una implementacion que no tiene en cuenta la escalabilidad del sistema, y
+            obliga al dev a repetir codigo hasta el cansancio.
      */
 }

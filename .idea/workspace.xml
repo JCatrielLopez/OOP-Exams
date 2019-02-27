@@ -5,20 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="566a1c3c-c426-4c0b-be2f-71a511f9f37a" name="Default Changelist" comment="g">
-      <change afterPath="$PROJECT_DIR$/src/F_27_02_2013/BasicMatrix.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/F_27_02_2013/ForgetfulMatrix.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/F_27_02_2013/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/F_27_02_2013/Matrix.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/F_27_02_2013/ReadingMatrix.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/F_27_02_2013/WritingMatrix.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/F_27_02_2013/combinable/BasicMatrix.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/F_27_02_2013/combinable/ForgetfulMatrix.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/F_27_02_2013/combinable/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/F_27_02_2013/combinable/Matrix.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/F_27_02_2013/combinable/MatrixDecorator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/F_27_02_2013/combinable/ReadingMatrix.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/F_27_02_2013/combinable/WritingMatrix.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/F_27_02_2013/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/F_27_02_2013/Main.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -51,8 +38,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/F_27_02_2013/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="88" selection-start-line="16" selection-start-column="88" selection-end-line="16" selection-end-column="88" />
+            <state relative-caret-position="195">
+              <caret line="13" column="62" selection-start-line="13" selection-start-column="62" selection-end-line="13" selection-end-column="62" />
             </state>
           </provider>
         </entry>
@@ -195,7 +182,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551281386756" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551281747743" />
     <property name="full.screen.before.presentation.mode" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -315,12 +302,12 @@
       <workItem from="1551143824660" duration="4748000" />
       <workItem from="1551190957629" duration="8790000" />
       <workItem from="1551216998851" duration="3552000" />
-      <workItem from="1551276502867" duration="4283000" />
+      <workItem from="1551276502867" duration="4410000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="71942000" />
+    <option name="totallyTimeSpent" value="72069000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -335,7 +322,7 @@
     <frame x="0" y="24" width="1366" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2530303" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2530303" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -836,8 +823,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/F_27_02_2013/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="88" selection-start-line="16" selection-start-column="88" selection-end-line="16" selection-end-column="88" />
+        <state relative-caret-position="195">
+          <caret line="13" column="62" selection-start-line="13" selection-start-column="62" selection-end-line="13" selection-end-column="62" />
         </state>
       </provider>
     </entry>
