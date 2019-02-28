@@ -5,9 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="566a1c3c-c426-4c0b-be2f-71a511f9f37a" name="Default Changelist" comment="g">
-      <change afterPath="$PROJECT_DIR$/src/design/observer/Observable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/design/observer/Observer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/design/observer/Tips" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/P_07_2018/APAnd.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/P_07_2018/APIngredientAmount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/P_07_2018/APRecipeQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/P_07_2018/APRecipeType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/P_07_2018/AcceptancePolicy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/P_07_2018/Ingredient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/P_07_2018/Kitchen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/P_07_2018/Recipe.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/P_07_2018/Section.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/P_07_2018/SingleIngredient.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -34,7 +41,44 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/design/observer/Observable.java">
+        <entry file="file://$PROJECT_DIR$/src/P_07_2018/ejercicio 5.png">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/P_07_2018/Kitchen.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/P_07_2018/Section.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="23" column="46" selection-start-line="23" selection-start-column="46" selection-end-line="23" selection-end-column="46" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1444#1445#0" expanded="true" />
+                <element signature="e#1486#1487#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/P_07_2018/Ingredient.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="23" column="4" selection-start-line="23" selection-start-column="4" selection-end-line="23" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/P_07_2018/AcceptancePolicy.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="105">
               <caret line="7" selection-start-line="7" selection-end-line="7" />
@@ -43,19 +87,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/design/observer/Observer.java">
+        <entry file="file://$PROJECT_DIR$/src/P_07_2018/Recipe.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="21" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
+            <state relative-caret-position="180">
+              <caret line="16" column="37" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/design/observer/Tips">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/P_07_2018/SingleIngredient.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="82" selection-start-column="82" selection-end-column="82" />
+            <state relative-caret-position="30">
+              <caret line="2" column="48" selection-start-line="2" selection-start-column="48" selection-end-line="2" selection-end-column="48" />
             </state>
           </provider>
         </entry>
@@ -88,18 +132,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/F_12_02_2014/ConditionOR.java" />
-        <option value="$PROJECT_DIR$/src/F_12_02_2014/ConditionAND.java" />
-        <option value="$PROJECT_DIR$/src/F_12_02_2014/ConditionCreationDateOlder.java" />
-        <option value="$PROJECT_DIR$/src/F_12_02_2014/ConditionCreationDateYounger.java" />
-        <option value="$PROJECT_DIR$/src/F_12_02_2014/Email.java" />
-        <option value="$PROJECT_DIR$/src/F_03_07_2013/ResourceManager.java" />
-        <option value="$PROJECT_DIR$/src/F_03_07_2013/ResourceManagerWaiting.java" />
-        <option value="$PROJECT_DIR$/src/F_03_07_2013/RMHOLD.java" />
-        <option value="$PROJECT_DIR$/src/F_03_07_2013/RMEXECUTING.java" />
-        <option value="$PROJECT_DIR$/src/F_03_07_2013/SimpleTask.java" />
-        <option value="$PROJECT_DIR$/src/F_12_03_2014/SpecialAccount.java" />
-        <option value="$PROJECT_DIR$/src/F_12_03_2014/Condition.java" />
         <option value="$PROJECT_DIR$/src/F_12_03_2014/Bank.java" />
         <option value="$PROJECT_DIR$/src/F_12_03_2014/ConditionOrigin.java" />
         <option value="$PROJECT_DIR$/src/F_12_03_2014/Account.java" />
@@ -139,6 +171,18 @@
         <option value="$PROJECT_DIR$/src/design/observer/Observer.java" />
         <option value="$PROJECT_DIR$/src/design/observer/Observable.java" />
         <option value="$PROJECT_DIR$/src/design/observer/Tips" />
+        <option value="$PROJECT_DIR$/src/P_07_2018/APIngredientAmount.java" />
+        <option value="$PROJECT_DIR$/src/P_07_2018/SingleIngredient.java" />
+        <option value="$PROJECT_DIR$/src/P_07_2018/Recipe.java" />
+        <option value="$PROJECT_DIR$/src/P_07_2018/Kitchen.java" />
+        <option value="$PROJECT_DIR$/src/P_07_2018/AcceptancePolicy.java" />
+        <option value="$PROJECT_DIR$/src/P_07_2018/APRecipeQueue.java" />
+        <option value="$PROJECT_DIR$/src/P_07_2018/Section.java" />
+        <option value="$PROJECT_DIR$/src/P_07_2018/APAnd.java" />
+        <option value="$PROJECT_DIR$/src/P_07_2018/APRecipeType.java" />
+        <option value="$PROJECT_DIR$/src/P_07_2018/APAlways.java" />
+        <option value="$PROJECT_DIR$/src/P_07_2018/APNever.java" />
+        <option value="$PROJECT_DIR$/src/P_07_2018/Ingredient.java" />
       </list>
     </option>
   </component>
@@ -148,7 +192,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="101" />
     <option name="y" value="29" />
     <option name="width" value="1149" />
@@ -184,8 +228,7 @@
               <item name="Object Oriented Programming - Exams" type="b2602c69:ProjectViewProjectNode" />
               <item name="Object Oriented Programming - Exams" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="design" type="462c0819:PsiDirectoryNode" />
-              <item name="observer" type="462c0819:PsiDirectoryNode" />
+              <item name="P_07_2018" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -198,7 +241,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551377165545" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551391846279" />
     <property name="full.screen.before.presentation.mode" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -211,12 +254,15 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/P_07_2018" />
+    </key>
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="P_07_2018" />
       <recent name="F_03_07_2013" />
       <recent name="F_12_02_2014" />
       <recent name="F_26_02_2016" />
       <recent name="F_25_09_2015" />
-      <recent name="F_11_03_2015" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -320,12 +366,13 @@
       <workItem from="1551216998851" duration="3552000" />
       <workItem from="1551276502867" duration="5662000" />
       <workItem from="1551359453499" duration="7162000" />
-      <workItem from="1551377244184" duration="412000" />
+      <workItem from="1551377244184" duration="7517000" />
+      <workItem from="1551391648229" duration="226000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="80895000" />
+    <option name="totallyTimeSpent" value="88226000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -337,10 +384,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="101" y="29" width="1149" height="728" extended-state="0" />
+    <frame x="0" y="30" width="1366" height="738" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17497733" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.34469697" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -357,7 +404,7 @@
       <window_info anchor="bottom" id="TODO" order="7" weight="0.32520324" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.3284553" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.25853658" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.25709516" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" weight="0.33722872" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.32520324" />
       <window_info anchor="bottom" id="Duplicate detector" order="13" weight="0.3284553" />
@@ -411,78 +458,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/F_12_03_2014/Final 2014-03-12.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Object Oriented Programming - Exams.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/libraries/src.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/encodings.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/misc.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/F_11_03_2015/Frame.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/F_11_03_2015/GestureComparator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="33" lean-forward="true" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/F_11_03_2015/Gesture.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/F_11_03_2015/Condition.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/F_11_03_2015/ActionAND.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/F_11_03_2015/Action.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/F_13_02_2013/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/F_07_08_2015/decorator/QueueDecorator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -812,6 +787,116 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="82" selection-start-column="82" selection-end-column="82" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/P_07_2018/APIngredientAmount.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="12" lean-forward="true" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/P_07_2018/ejercicio 5.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/P_07_2018/Section.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="23" column="46" selection-start-line="23" selection-start-column="46" selection-end-line="23" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1444#1445#0" expanded="true" />
+            <element signature="e#1486#1487#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/P_07_2018/AcceptancePolicy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/P_07_2018/SingleIngredient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="48" selection-start-line="2" selection-start-column="48" selection-end-line="2" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/P_07_2018/APRecipeQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="35" selection-start-line="14" selection-start-column="35" selection-end-line="14" selection-end-column="35" />
+          <folding>
+            <element signature="e#308#309#0" expanded="true" />
+            <element signature="e#381#382#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/P_07_2018/APRecipeType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="57" selection-start-line="14" selection-start-column="57" selection-end-line="14" selection-end-column="57" />
+          <folding>
+            <element signature="e#273#274#0" expanded="true" />
+            <element signature="e#304#305#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/P_07_2018/APAnd.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="14" column="43" selection-start-line="14" selection-start-column="43" selection-end-line="14" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/P_07_2018/APAlways.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+          <folding>
+            <element signature="e#141#142#0" expanded="true" />
+            <element signature="e#169#170#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/P_07_2018/APNever.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="63" selection-start-line="2" selection-start-column="63" selection-end-line="2" selection-end-column="63" />
+          <folding>
+            <element signature="e#119#120#0" expanded="true" />
+            <element signature="e#162#163#0" expanded="true" />
+            <element signature="e#209#210#0" expanded="true" />
+            <element signature="e#234#235#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/P_07_2018/Kitchen.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/P_07_2018/Recipe.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="16" column="37" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/P_07_2018/Ingredient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="23" column="4" selection-start-line="23" selection-start-column="4" selection-end-line="23" selection-end-column="4" />
         </state>
       </provider>
     </entry>
